@@ -7,6 +7,10 @@ html{
     box-sizing: inherit;
 }
 
+p, span{
+    color: aliceblue;
+}
+
 body{
     margin: 0;
     min-height: 100vh;
@@ -73,9 +77,9 @@ nav ul{
     width: 100px;
     height: 100px;
     position: absolute;
-    background: #ffffff;
+    background: #2b2d36;
     border-radius: 4px;
-    box-shadow: 0 50px 100px rgba(50, 50, 93, .1), 0 15px 35px rgba(50, 50, 93, .15), 0 5px 15px rgba(0, 0, 0, .1);
+    box-shadow: 0 50px 100px rgba(50,50,93,.1), 0 15px 35px rgba(50,50,93,.15), 0 5px 15px rgba(0,0,0,.1);
     transition: all 0.3s, opacity 0.1s, transform 0.2s;
     transform-origin: 50% 0;
     display: flex;
@@ -83,7 +87,7 @@ nav ul{
     opacity: 0;
 }
 
-.dropdownBackground .open{
+.dropdownBackground.open{
     opacity: 1;
 }
 
@@ -92,7 +96,7 @@ nav ul{
     width: 20px;
     height: 20px;
     display: block;
-    background: #ffffff;
+    background: #2b2d36;
     transform: translateY(-50%) rotate(45deg);
 }
 
@@ -107,6 +111,11 @@ nav ul{
 .bio img{
     float: left;
     margin-right: 20px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
 }
 
 .pcparts{
@@ -125,10 +134,11 @@ nav ul{
 }
 
 a.button{
-    background: #000000;
+    text-decoration: none;
     display: block;
     padding: 10px;
-    color: #ffffff;
+    color: #e64850;
     margin-top: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 

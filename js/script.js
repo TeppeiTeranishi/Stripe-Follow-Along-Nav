@@ -20,7 +20,7 @@ function handleEnter() {
 
     background.style.setProperty('width', `${coords.width}px`);
     background.style.setProperty('height', `${coords.height}px`);
-    background.style.setProperty('transform', `translate({coords.left}px, ${coords.top}px)`);
+    background.style.setProperty('transform', `translate(${coords.left}px, ${coords.top}px)`);
 }
 
 function handleLeave() {
